@@ -1,0 +1,29 @@
+{
+    "backup_root": "D:\\trace\\trace_project\\project_backups",
+    "auto_exclude": [
+        ".git",
+        "node_modules",
+        "__pycache__",
+        ".pytest_cache",
+        "venv",
+        ".venv",
+        "env",
+        ".env",
+        ".idea",
+        ".vscode",
+        ".DS_Store",
+        "*.pyc",
+        "*.log",
+        "*.tmp",
+        "*.bak",
+        "backup_*",
+        "dist",
+        "build",
+        "*.egg-info"
+    ],
+    "max_backups": 50,
+    "compression": true,
+    "hash_check": true,
+    "source_dir": "D:/测试备份",
+    "backup_dir": "D:/python备份之后的数据"
+}
